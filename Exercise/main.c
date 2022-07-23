@@ -1,5 +1,5 @@
 #include "LinkedList.c"
-#include "Exercise.c"
+#include "SortNumbers.c"
 
 #define LOOP(LENGTH) for(uint8_t index = 0; index < (LENGTH); ++index)
 

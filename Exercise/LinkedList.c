@@ -144,10 +144,8 @@ uint8_t getValue(node** head, uint8_t position){
 
 // access and print value of list
 void printList(node *head){
-	uint8_t index = 0U;
 	while(head != NULL){
 		printf("List[%d] = %d\n", index, head->value);
-		index++;
 		head = head->next;
 	}
 }
