@@ -63,12 +63,18 @@ int main(int argc, char const *argv[]){
 	printf("All element in list are clear: head = %x\n", head);
 
 
-	printf( "\n****************************************************************/\n"
+	printf( "\n/****************************************************************/\n"
 			"/* Stack Data Structure                                         */\n"
 			"/****************************************************************/\n"
 			);
 
 	Stack* p_stack = initStack(10U);
+
+	LOOP(p_stack->length){
+		pushBackStack(p_stack, index);
+	}
+
+	popStack(p_stack);
 
 	printf("\nMember of stack: ");
 	printArr(p_stack->data, p_stack->length);

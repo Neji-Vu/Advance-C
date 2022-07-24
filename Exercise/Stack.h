@@ -17,4 +17,8 @@ void clearStack(Stack**);
 bool isEmpty(Stack*);
 bool isFull(Stack*);
 
+void pushBackStack(Stack*, uint8_t);
+uint8_t popStack(Stack*);
+uint8_t peekStack(Stack*);
+
 #endif
