@@ -48,7 +48,7 @@ uint8_t popStack(Stack* stack){
 uint8_t peekStack(Stack* stack){
 	if(stack == NULL) return '\0';
 	if(isEmpty(stack)){
-		printf("Stack has not data to pop.\n");
+		printf("Stack has not data to peek.\n");
 		return '\0';
 	}
 	return stack->data[stack->top];
